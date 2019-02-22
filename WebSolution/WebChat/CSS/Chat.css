@@ -1,0 +1,94 @@
+﻿/*发送样式 */
+.sendInfo {
+    position: relative !important;
+    width: 90% !important;
+    min-height: 30px !important;
+    background: #F8C301 !important;
+    border-radius: 6px !important; /* 圆角 */
+    margin: 10px auto !important;
+    padding: 10px !important;
+    display: block !important;
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+}
+    /*右箭头*/
+    .sendInfo .rightArrow {
+        position: absolute !important;
+        top: 3px !important;
+        right: -14px !important; /* 圆角的位置需要细心调试哦 */
+        width: 0 !important;
+        height: 0 !important;
+        font-size: 0 !important;
+        border: solid 7px !important;
+        border-color: #fff #fff #fff #F8C301 !important;
+    }
+    /*左箭头*/
+    .sendInfo .leftArrow {
+        position: absolute !important;
+        top: 3px !important;
+        left: -14px !important; /* 圆角的位置需要细心调试哦 */
+        width: 0 !important;
+        height: 0 !important;
+        font-size: 0 !important;
+        border: solid 7px !important;
+        border-color: #fff #F8C301 #fff #fff !important;
+    }
+/*图标*/
+.Icon {
+    position: relative !important;
+    width: 8%;
+    height: 30px;
+    margin: 15px auto;
+}
+
+    .Icon img {
+        width: 80%;
+        height: 120%;
+        border-radius: 10000px !important; /* 圆角 */
+    }
+
+/*右图标*/
+.rightIcon {
+    float: right;
+    text-align: right;
+    width: 8%;
+}
+
+/*左图标*/
+.leftIcon {
+    width: 8%;
+    float: left;
+}
+
+/*屏幕范围最大为1024的*/
+@media screen and (max-width:1024px) {
+    .sendInfo {
+        width: 80% !important;
+    }
+}
+
+/*屏幕范围在767-980的*/
+@media screen and (min-width:767px) and (max-width: 980px) {
+    .sendInfo {
+        width: 85% !important;
+    }
+}
+
+/*屏幕范围在300-767的*/
+@media screen and (min-width:300px) and (max-width: 767px) {
+    .sendInfo {
+        width: 70% !important;
+    }
+
+    .rightIcon {
+        float: right;
+        text-align: right;
+        width: 20%;
+    }
+
+    /*左图标*/
+    .leftIcon {
+        width: 20%;
+        float: left;
+    }
+}

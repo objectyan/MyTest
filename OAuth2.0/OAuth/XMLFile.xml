@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OAuthData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RedirectUrl>http://127.0.0.1/OAuth/OAuth.ashx</RedirectUrl>
+  <State>object</State>
+  <View>web</View>
+  <AuthName>TopSandBox</AuthName>
+  <!--淘宝沙箱-->
+  <OAuthConfig Name="TopSandBox">
+    <AppKey>1023018636</AppKey>
+    <AppSecret>sandboxb174b6f1ceb480a8f0dcab058</AppSecret>
+    <AuthUrl>https://oauth.tbsandbox.com/authorize</AuthUrl>
+    <TokenUrl>https://oauth.tbsandbox.com/token</TokenUrl>
+    <LogOffUrl>https://oauth.tbsandbox.com/logoff</LogOffUrl>
+    <!--授权信息-->
+    <OAuthInfo>
+      <RefreshToken>refresh_token</RefreshToken>
+      <AccessToken>access_token</AccessToken>
+      <UserCode>taobao_user_id</UserCode>
+      <UserNick>taobao_user_nick</UserNick>
+    </OAuthInfo>
+  </OAuthConfig>
+  <!--淘宝正式-->
+  <OAuthConfig Name="Top">
+    <AppKey>23018636</AppKey>
+    <AppSecret>ef1e158b174b6f1ceb480a8f0dcab058</AppSecret>
+    <AuthUrl>https://oauth.taobao.com/authorize</AuthUrl>
+    <TokenUrl>https://oauth.taobao.com/token</TokenUrl>
+    <LogOffUrl>https://oauth.taobao.com/logoff</LogOffUrl>
+    <!--授权信息-->
+    <OAuthInfo>
+      <RefreshToken>refresh_token</RefreshToken>
+      <AccessToken>access_token</AccessToken>
+      <UserCode>taobao_user_id</UserCode>
+      <UserNick>taobao_user_nick</UserNick>
+    </OAuthInfo>
+  </OAuthConfig>
+  <!--京东正式-->
+  <OAuthConfig Name="JOS">
+    <AppKey>82E5140CDEC87C56E7580FC0CCEAB6F7</AppKey>
+    <AppSecret>08925dbdb26b4aac8500d0c45c86a025</AppSecret>
+    <AuthUrl>https://oauth.jd.com/oauth/authorize</AuthUrl>
+    <TokenUrl>https://oauth.jd.com/oauth/token</TokenUrl>
+    <!--授权信息-->
+    <OAuthInfo>
+      <RefreshToken>refresh_token</RefreshToken>
+      <AccessToken>access_token</AccessToken>
+      <UserCode>uid</UserCode>
+      <UserNick>user_nick</UserNick>
+    </OAuthInfo>
+  </OAuthConfig>
+  <OAuthConfig Name="SBY">
+    <AppKey>10210015011500002872</AppKey>
+    <AppSecret>c18b904f6301abb7c87dc04dbd19db5b</AppSecret>
+    <AuthUrl>https://member.yhd.com/login/authorize.do</AuthUrl>
+    <TokenUrl>https://member.yhd.com/login/token.do</TokenUrl>
+    <!--授权信息-->
+    <OAuthInfo>
+      <RefreshToken>expiresIn</RefreshToken>
+      <AccessToken>accessToken</AccessToken>
+      <UserCode>userCode</UserCode>
+      <UserNick>nickName</UserNick>
+    </OAuthInfo>
+  </OAuthConfig>
+</OAuthData>
